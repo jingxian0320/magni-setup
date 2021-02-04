@@ -1,9 +1,11 @@
 # Set-up Guide for Ubiquity Magni Robot
 
 1. Connet to the Robot 
+
 1.1 First-time setup
 - Follow the [guide](https://learn.ubiquityrobotics.com/connecting) 
 1.2 if it is set up previously to connet to the wifi
+
 - connect to the same wifi
 - ssh ubuntu@IP-ADDRESS (default pw: ubuntu)
 
