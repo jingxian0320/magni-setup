@@ -14,7 +14,7 @@
 - install the package [teleop_twist_keyboard](https://answers.ros.org/question/199363/error-run-teleop_twist_keyboard-package/) to drive from the workstation. 
 
 3. Setup rpRidar
-- follow the [guid]e(https://learn.ubiquityrobotics.com/lidar_navigation). The edit of node.cpp is not needed as it should no longer exist in the current repo.
+- follow the [guide](https://learn.ubiquityrobotics.com/lidar_navigation). The edit of node.cpp is not needed as it should no longer exist in the current repo.
 - If 'Error, cannot bind to the specified serial port /dev/ttyUSB0'
   - check the location of the RPlidar serial port with `ls -l /dev|grep ttyUSB`
   - check if cp210x is active using `lsmod`
