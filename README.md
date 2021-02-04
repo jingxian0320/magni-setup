@@ -1,4 +1,4 @@
-#Set-up Guide for Ubiquity Magni Robot
+# Set-up Guide for Ubiquity Magni Robot
 
 1. Connet to the Robot 
 1.1 First-time setup
@@ -23,5 +23,5 @@
 -- if encountering access problem, `sudo chmod 666 /dev/ttyUSB0`
 - additional [reference] (https://medium.com/robotics-with-ros/installing-the-rplidar-lidar-sensor-on-the-raspberry-pi-32047cde9588)
 
-##Hint
+## Hint
 - If anything weried happens, try to turn it off and on again:) **with clean shutdown**(https://learn.ubiquityrobotics.com/connecting)
