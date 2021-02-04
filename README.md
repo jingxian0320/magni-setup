@@ -16,11 +16,11 @@
 3. Setup rpRidar
 - follow the [guid]e(https://learn.ubiquityrobotics.com/lidar_navigation). The edit of node.cpp is not needed as it should no longer exist in the current repo.
 - If 'Error, cannot bind to the specified serial port /dev/ttyUSB0'
--- check the location of the RPlidar serial port with `ls -l /dev|grep ttyUSB`
--- check if cp210x is active using `lsmod`
--- check if cp210x is available in the system using `ls -al /lib/modules/"$(uname -r)"/kernel/drivers/usb/serial/cp210x.ko`
--- `sudo apt-get install build-essential linux-source` might work to resolve the problem followed by a **reboot**
--- if encountering access problem, `sudo chmod 666 /dev/ttyUSB0`
+  - check the location of the RPlidar serial port with `ls -l /dev|grep ttyUSB`
+  - check if cp210x is active using `lsmod`
+  - check if cp210x is available in the system using `ls -al /lib/modules/"$(uname -r)"/kernel/drivers/usb/serial/cp210x.ko`
+  - `sudo apt-get install build-essential linux-source` might work to resolve the problem followed by a **reboot**
+  - if encountering access problem, `sudo chmod 666 /dev/ttyUSB0`
 - additional [reference](https://medium.com/robotics-with-ros/installing-the-rplidar-lidar-sensor-on-the-raspberry-pi-32047cde9588)
 
 ## Hint
